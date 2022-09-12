@@ -1,0 +1,33 @@
+.t{
+    border: 5px #ddd;
+  box-shadow: 0px 0px 10px;
+    background-color: rgb(161, 252, 247);
+    position: absolute;
+  padding: 1em 2em;
+   width: 310px;
+   left: 0;
+  right: 0;
+  margin: auto;
+   top: 50vh;
+  transform : translateY(-50%);
+   border-radius: 5px;
+}
+#resultado{
+    color: rgba(252, 0, 0, 0.753);
+    font-size: 25px;
+
+}
+p{
+    font-size: 30px;
+}
+#form{
+    font-size: 25px;
+}
+#b{
+    font-size: 30px;
+    color: rgb(0, 60, 255);
+    background-color: rgb(185, 169, 255);
+}
+body{
+    background-color: rgb(120, 185, 247);
+}
