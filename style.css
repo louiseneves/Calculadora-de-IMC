@@ -1,33 +1,113 @@
-.t{
-    border: 5px #ddd;
+body {
+  background-color: rgb(120, 185, 247);
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 5px #ddd;
   box-shadow: 0px 0px 10px;
-    background-color: rgb(161, 252, 247);
-    position: absolute;
-  padding: 1em 2em;
-   width: 310px;
-   left: 0;
+  background-color: rgb(161, 252, 247);
+  position: absolute;
+  padding: 2em;
+  max-width: 400px;
+  left: 0;
   right: 0;
   margin: auto;
-   top: 50vh;
-  transform : translateY(-50%);
-   border-radius: 5px;
+  top: 50vh;
+  transform: translateY(-50%);
+  border-radius: 10px;
 }
-#resultado{
-    color: rgba(252, 0, 0, 0.753);
-    font-size: 25px;
 
+#form {
+  font-size: 1.2em;
 }
-p{
-    font-size: 30px;
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
 }
-#form{
-    font-size: 25px;
+
+input {
+  width: calc(100% - 1em);
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-#b{
-    font-size: 30px;
-    color: rgb(0, 60, 255);
-    background-color: rgb(185, 169, 255);
+
+#botaoCalcular {
+  font-size: 1.2em;
+  color: white; /* Cor do texto alterada para branco */
+  background-color: rgb(88, 70, 153); /* Cor do botão alterada para um roxo mais escuro */
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
-body{
-    background-color: rgb(120, 185, 247);
+
+#botaoCalcular:hover {
+  background-color: rgb(60, 45, 110); /* Cor do botão alterada para um roxo ainda mais escuro no hover */
+}
+
+#resultado {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1em;
+  padding: 0.5em;
+}
+
+.container h1 {
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* Cores para o resultado do IMC */
+.baixo-peso-grave{
+  color: rgb(255, 100, 100);
+}
+.baixo-peso{
+  color: rgb(255, 150, 100);
+}
+
+.peso-normal{
+  color: rgb(100, 255, 100);
+}
+
+.sobrepeso{
+  color: rgb(255, 255, 100);
+}
+
+.obesidade-grau-1,
+.obesidade-grau-2,
+.obesidade-grau-3{
+  color: rgb(255, 100, 100);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+      width: 90%;
+      padding: 1em;
+  }
+
+  #form {
+      font-size: 1em;
+  }
+
+  #botaoCalcular {
+      font-size: 1em;
+  }
+
+  #resultado {
+      font-size: 1.2em;
+  }
+
+  .container h1 {
+      font-size: 1.4em;
+  }
 }
