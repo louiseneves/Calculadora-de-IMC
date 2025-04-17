@@ -1,6 +1,6 @@
 const botaoCalcular = document.getElementById('botaoCalcular');
 const resultadoDiv = document.getElementById('resultado');
-
+const botaoLimpar = document.getElementById('botaoLimpar');
 function calcularIMC() {
     const peso = parseFloat(document.getElementById('peso').value);
     const altura = parseFloat(document.getElementById('altura').value);
@@ -42,7 +42,22 @@ function calcularIMC() {
     }
 
     resultadoDiv.textContent = `Seu IMC é ${resultadoIMC}! ${mensagem}`;
-    resultadoDiv.className = classeResultado;
+    resultadoDiv.className = `${classeResultado} animado`;
+}
+function resetIMC() {
+    document.getElementById('peso').value = '';
+    document.getElementById('altura').value = '';
+    resultadoDiv.textContent = '';
+    resultadoDiv.className = ''; // limpa a cor também
 }
 
-botaoCalcular.addEventListener('click', calcularIMC);
+botaoCalcular.addEventListener('click', function(event) {
+    event.preventDefault();
+    calcularIMC();
+  });
+  
+  botaoLimpar.addEventListener('click', function(event) {
+    event.preventDefault();
+    resetIMC();
+  });
+  
