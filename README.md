@@ -5,4 +5,8 @@ Esta é uma aplicação web simples e responsiva para calcular o IMC (Índice de
 - Cores indicadas para cada faixa
 - Botão de limpar os campos
 - Design responsivo
-- Feedback visual para o preenchimento 
+- Feedback visual para o preenchimento incorreto
+## Tecnologias
+- HTML
+- CSS
+- JavaScript
