@@ -14,3 +14,7 @@ Esta é uma aplicação web simples e responsiva para calcular o IMC (Índice de
 ![imc-calculadora](https://github.com/user-attachments/assets/e3ba4f7a-8d5f-4494-9959-1a54815e352f)
 ## 💡 Como rodar
 https://imcexpress.netlify.app/
+## 📬 Contato
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/louiseneves)  
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/louiseneves)
