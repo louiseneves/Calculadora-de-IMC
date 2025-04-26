@@ -10,3 +10,7 @@ Esta é uma aplicação web simples e responsiva para calcular o IMC (Índice de
 - HTML
 - CSS
 - JavaScript
+## Imagem
+![imc-calculadora](https://github.com/user-attachments/assets/e3ba4f7a-8d5f-4494-9959-1a54815e352f)
+## 💡 Como rodar
+https://imcexpress.netlify.app/
